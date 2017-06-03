@@ -53,6 +53,7 @@ class AppComponent extends React.Component {
           <input ref="imagePicker"
                  id="imagePicker"
                  type="file"
+                 accept="image/*"
                  onChange={this.previewImage.bind(this)} />
         </div>
         </div>
